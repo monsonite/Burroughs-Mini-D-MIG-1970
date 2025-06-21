@@ -4,6 +4,20 @@ A transcription of the US Patent US 3,878,514 drawings for an 8-bit, bit serial 
 
 https://patentimages.storage.googleapis.com/8e/54/4c/11d72d5f62a1dd/US3878514.pdf
 
+This machine is a source of inspiration because although designed in the very early 1970s, it predicted the use of a low pin-count controller, interfacing to peripherals via a clocked serial I/O bus. This is what we would now recognise as a microcontroller with an SPI bus.
+
+Constructed first in 7400 series TTL and then implemented as an LSI chip, it had just 16 pins and was clocked at 10MHz.
+
+It could execute an 8-bit arithmetic instruction in 1uS, and transfer bytes of data at 10 Mbits/s.
+
+If implemented in the TTL devices that were available in 1970, it would run to about 50 packages, and the gate count would be around 600 gates.
+
+The object of this project is to capture the logic diagrams from the patent and make them available in a form that may be utilised by DIY CPU constructors, either in 74HC, disctrete transistor DTL or VHDL/Verilog for FPGA/CPLD implementations.
+
+My logic simulator is H. Neemann's "Digital" - available to download here on Github.
+
+This is a work in progress, so please check back for progress reports and updates.
+
 
 ![image](https://github.com/user-attachments/assets/9041cefe-0a69-4ec2-9a12-f4d32c222738)
 
